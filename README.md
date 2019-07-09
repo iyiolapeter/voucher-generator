@@ -4,7 +4,7 @@ Crytography secure random number generator written in TypeScript suitable for nu
 ### Installation
 
 ```sh
-$ npm install --save nigerian-phone-number-validator
+$ npm install --save voucher-generator
 ```
 
 ### Usage
