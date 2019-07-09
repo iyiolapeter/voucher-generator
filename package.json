@@ -2,7 +2,7 @@
   "name": "ts-express-starter",
   "version": "1.0.0",
   "description": "TS Module Starter",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "start": "npm run build",
     "test": "jest --watch",
@@ -26,6 +26,9 @@
     "typescript": "^3.5.2"
   },
   "dependencies": {},
+  "files": [
+    "lib/**/*"
+  ],
   "husky": {
     "hooks": {
       "pre-commit": "npm run lint && npm run format && npm run build"
