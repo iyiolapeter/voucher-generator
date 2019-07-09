@@ -1,7 +1,7 @@
 {
-  "name": "ts-express-starter",
+  "name": "voucher-generator",
   "version": "1.0.0",
-  "description": "TS Module Starter",
+  "description": "Crytography secure random number generator written in TypeScript suitable for numeric vouchers, recharge cards or coupon codes",
   "main": "lib/index.js",
   "scripts": {
     "start": "npm run build",
@@ -14,9 +14,10 @@
     "prepare": "npm run build"
   },
   "author": "Peter Iyiola",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^24.0.15",
+    "@types/node": "^12.0.10",
     "husky": "^3.0.0",
     "jest": "^24.8.0",
     "prettier": "^1.17.1",
@@ -33,5 +34,26 @@
     "hooks": {
       "pre-commit": "npm run lint && npm run format && npm run build"
     }
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iyiolapeter/voucher-generator.git"
+  },
+  "keywords": [
+    "Voucher",
+    "Coupon",
+    "Recharge",
+    "cards",
+    "Luhn",
+    "Check",
+    "Digit",
+    "TypeScript"
+  ],
+  "bugs": {
+    "url": "https://github.com/iyiolapeter/voucher-generator/issues"
+  },
+  "homepage": "https://github.com/iyiolapeter/voucher-generator#readme"
 }
