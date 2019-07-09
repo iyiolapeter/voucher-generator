@@ -1,6 +1,6 @@
 {
   "name": "voucher-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Crytography secure random number generator written in TypeScript suitable for numeric vouchers, recharge cards or coupon codes",
   "main": "lib/index.js",
   "scripts": {
