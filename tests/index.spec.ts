@@ -1,4 +1,4 @@
-import { calculateCheck, generate } from "../index";
+import { calculateCheck, generate } from "../src/index";
 
 describe("Voucher Generator", () => {
 	const num = generate({ length: 16, check: true });
